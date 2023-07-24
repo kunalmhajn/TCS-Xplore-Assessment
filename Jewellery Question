@@ -1,0 +1,38 @@
+Question:
+Create a class Jewellery with the following attributes:
+
+id (int)
+name (String)
+category (String)
+price (double)
+availability (String)
+
+Write necessary getters and setters for the Jewellery class.
+
+Create a class Solution and implement a static method findJewelleryByAvailability in the Solution class. This method will take an array of Jewellery objects and a givenAvailability (String) as parameters. It should return another array of Jewellery objects where the givenAvailability matches with the original array of Jewellery object's category attribute (case insensitive search). Return the jewellery object with the maximum price.
+
+
+In the main method, read values for four jewellery items referring to the attributes in the above sequence. Then call the findJewelleryByAvailability method passing the jewellery array, givenAvailiabilty as arguments. Finally, write the logic to print the IDs, category, and price of the max price matching jewellery items in the main method.
+
+Inputs:
+101
+Gold necklace
+Pendant
+600.00
+True
+102
+Silver bracelet
+Bangle
+3000.00
+True
+103
+Diamond earrings
+Studs
+100.00
+False
+104
+Pearl necklace
+Choker
+400.00
+True
+True
