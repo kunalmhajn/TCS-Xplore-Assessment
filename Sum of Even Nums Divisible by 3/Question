@@ -1,0 +1,1 @@
+Create two integers lower_bound and upper_bound. Find the sum of all the numbers lying within upper_bound and lower_bound. The condition is the numbers should be even and divisible by 3. Print the sum.
